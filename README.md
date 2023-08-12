@@ -16,7 +16,7 @@ git push -u origin "main"
 ```
 
 ## Configuramos package.json
-```JSON
+```
 {
   "homepage":"https://henryccoillo.github.io/vite_reploy",
   "name": "deploy",
@@ -31,7 +31,7 @@ git push -u origin "main"
 
 ```
 ## Configuramos vite.config.json
-```JSON
+```
 export default defineConfig({
   plugins: [react()],
   base:'/vite_reploy/'
