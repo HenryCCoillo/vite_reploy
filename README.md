@@ -30,6 +30,13 @@ git push -u origin "main"
 }
 
 ```
+## Configuramos vite.config.json
+```JSON
+export default defineConfig({
+  plugins: [react()],
+  base:'/vite_reploy/'
+})
+```
 
 ## Comando de deploy
 ```BASH
